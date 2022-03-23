@@ -1,0 +1,31 @@
+{
+    "name": "lushidev/foot-api",
+    "description": "a laraval football api package inspired from gramma football package",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Lushidev\\FootApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jocelin kisenga",
+            "email": "jocelinkisenga7@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev", 
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Lushidev\\FootApi\\footballServiceProvider"
+          ], 
+        "aliases": {
+          "Football":"Lushidev\\FootApi\\Facades\\FootballFacade" 
+        }
+      }
+    }
+}
