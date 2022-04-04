@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: naymin
- * Date: 6/26/19
- * Time: 4:07 PM
- */
+
 
 namespace Lushidev\FootApi\Facades;
 
