@@ -34,4 +34,5 @@ RAPID_URL_HOST=v3.football.api-sports.io
 APIFOOTBALL_API_KEY=
 ```
 <i> sur la variable d'environnement APIFOOTBALL_API_KEY, ajoutez-y votre api que vous aurez reçu depuis le site
-<a href="api-football.com" target="blank" >api-football</a></i>
+<a href="api-football.com" target="blank" >api-football</a></i><br>
+<strong> Le projet est en cours de développement </strong>
