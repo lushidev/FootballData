@@ -36,3 +36,32 @@ APIFOOTBALL_API_KEY=
 <i> sur la variable d'environnement APIFOOTBALL_API_KEY, ajoutez-y votre api que vous aurez reçu depuis le site
 <a href="api-football.com" target="blank" >api-football</a></i><br>
 <strong> Le projet est en cours de développement </strong>
+
+## exemple d'utilisation 
+
+```
+<?php
+
+use Illuminate\Support\Facades\Route;
+use Lushidev\FootApi\Facades\FootballFacade;
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+/** this route returns all live matches **/
+Route::get("live", function(){
+    return Football::getlive();
+}) ;
+
+```
