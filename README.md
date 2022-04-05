@@ -11,3 +11,8 @@ Créer un Package laravel recherchant les données footbalistique avec <em> l'ap
 ```
  composer require lushidev/Foot-api
  ```
+## publication dans le Config.php
+
+Afin de pouvoir utiliser le package, il est conseillé d'enregistrer
+Dan le fichier Config de votre application laravel `` le service provider `` et ``la
+Facade `` comme suite :
