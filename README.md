@@ -7,3 +7,7 @@ Créer un Package laravel recherchant les données footbalistique avec <em> l'ap
 </p>
 
 ## installation
+
+```
+ composer require lushidev/Foot-api
+ ```
