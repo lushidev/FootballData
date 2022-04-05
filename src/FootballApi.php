@@ -30,7 +30,7 @@ class FootballApi
         return collect($live);
     }
   public function fixtures(){
-    $fixtures=$this->run("fixtures");
+    $fixtures=$this->run("/fixtures");
     return collect($fixtures);
   }
   
