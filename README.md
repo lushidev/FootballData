@@ -23,5 +23,15 @@ Lushidev\FootApi\FootballServiceProvider::class
 ```
 * Dans le tableau des Facades :
 ```
-        'Football'=>"Lushidev\FootApi\Facades\FootballFacade::class"
+ 'Football'=>"Lushidev\FootApi\Facades\FootballFacade::class"
 ```
+
+## Les variables d'environnement
+
+```
+FOOTBALL_API_URL=https://v3.football.api-sports.io
+RAPID_URL_HOST=v3.football.api-sports.io
+APIFOOTBALL_API_KEY=
+```
+<i> sur la variable d'environnement APIFOOTBALL_API_KEY, ajoutez-y votre api que vous aurez reçu depuis le site
+<a href="api-football.com" target="blank" >api-football</a></i>
