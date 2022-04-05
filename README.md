@@ -62,3 +62,9 @@ Route::get("live", function(){
 }) ;
 
 ```
+
+## requirements
+
+- guzzlehttp/guzzle:7.4.x-dev
+- php 8 
+
